@@ -1,0 +1,13 @@
+IrisProject/
+│
+├── data/                  # (Tùy chọn) Nơi chứa file csv nếu bạn không load từ sklearn
+│   └── iris.csv
+│
+├── models/                # Nơi lưu trữ mô hình sau khi train (file .pkl hoặc .joblib)
+│   └── iris_model.pkl
+│
+├── venv/                  # Môi trường ảo (Virtual Environment)
+│
+├── iris_classification.py # File mã nguồn chính (như trong ảnh của bạn)
+├── requirements.txt       # Danh sách các thư viện cần thiết (scikit-learn, pandas...)
+└── README.md              # Tài liệu hướng dẫn ngắn gọn về project
